@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Travelopia Test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="teststyle.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="test-header">
+            Travelopia Test
+        </header>
+
+        <main class="test-main">
+            <section class="test-container">
+                <picture>
+                    <source media="(min-width: 1920px)" srcset="images/travel_1920x720.png">
+                    <source media="(min-width: 1600px)" srcset="images/travel_1600x720.png">
+                    <source media="(min-width: 1440px)" srcset="images/travel_1440x720.png">
+                    <source media="(min-width: 1280px)" srcset="images/travel_1280x720.png">
+                    <source media="(min-width: 1028px)" srcset="images/travel_1028x720.png">
+                    <source media="(min-width: 768px)" srcset="images/travel_768x720.png">
+                    <source media="(min-width: 600px)" srcset="images/travel_600x450.png">
+                    <source media="(min-width: 512px)" srcset="images/travel_512x450.png">
+                    <source media="(min-width: 414px)" srcset="images/travel_414x450.png">
+                    <source media="(min-width: 375px)" srcset="images/travel_375x450.png">
+                    <source media="(min-width: 320px)" srcset="images/travel_320x450.png">
+                    <img class="test-image" alt="Test Home" src="images/travel_1920x720.png">
+                </picture>
+                <div class="test-content">
+                    <h1>Frontend Take-Home Test</h1>
+                    <p>This is a full-page, full-width, full-height component, which works on all
+                        screen sizes</p>
+                    <button class="test-button" role="button" onclick="alertFunction()"><span class="text">Click
+                            Here</span></button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="test-footer">
+            Copyright © Travelopia Test 2022
+        </footer>
+    </div>
+
+    <script>
+        function alertFunction() {
+            alert("Hello World !!!");
+        }
+    </script>
+
+</body>
+
+</html>
